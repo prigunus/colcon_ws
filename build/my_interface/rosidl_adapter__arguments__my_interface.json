@@ -1,0 +1,6 @@
+{
+  "package_name": "my_interface",
+  "non_idl_tuples": [
+    "/home/kcm/colcon_ws/src/my_interface:msg/Mytopic.msg"
+  ]
+}

@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:22:
+  Parse error.  Expected a command name, got right paren with text ")".
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/kcm/colcon_ws/build/my_interface/CMakeFiles/CMakeOutput.log".

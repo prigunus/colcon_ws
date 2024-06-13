@@ -1,0 +1,21 @@
+[2.677s] Invoking command in '/home/kcm/colcon_ws/src/my_pkg': PYTHONPATH=/home/kcm/colcon_ws/build/my_pkg/prefix_override:/home/kcm/colcon_ws/install/my_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_pkg build --build-base /home/kcm/colcon_ws/build/my_pkg/build install --record /home/kcm/colcon_ws/build/my_pkg/install.log --single-version-externally-managed install_data
+[3.955s] running egg_info
+[3.957s] writing ../../build/my_pkg/my_pkg.egg-info/PKG-INFO
+[3.969s] writing dependency_links to ../../build/my_pkg/my_pkg.egg-info/dependency_links.txt
+[3.969s] writing entry points to ../../build/my_pkg/my_pkg.egg-info/entry_points.txt
+[3.969s] writing requirements to ../../build/my_pkg/my_pkg.egg-info/requires.txt
+[3.969s] writing top-level names to ../../build/my_pkg/my_pkg.egg-info/top_level.txt
+[3.973s] reading manifest file '../../build/my_pkg/my_pkg.egg-info/SOURCES.txt'
+[3.978s] writing manifest file '../../build/my_pkg/my_pkg.egg-info/SOURCES.txt'
+[3.981s] running build
+[3.981s] running build_py
+[3.985s] running install
+[3.985s] running install_lib
+[3.993s] running install_data
+[4.005s] running install_egg_info
+[4.005s] removing '/home/kcm/colcon_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[4.005s] Copying ../../build/my_pkg/my_pkg.egg-info to /home/kcm/colcon_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg-0.0.0-py3.10.egg-info
+[4.009s] running install_scripts
+[4.090s] Installing mpub script to /home/kcm/colcon_ws/install/my_pkg/lib/my_pkg
+[4.101s] writing list of installed files to '/home/kcm/colcon_ws/build/my_pkg/install.log'
+[4.181s] Invoked command in '/home/kcm/colcon_ws/src/my_pkg' returned '0': PYTHONPATH=/home/kcm/colcon_ws/build/my_pkg/prefix_override:/home/kcm/colcon_ws/install/my_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_pkg build --build-base /home/kcm/colcon_ws/build/my_pkg/build install --record /home/kcm/colcon_ws/build/my_pkg/install.log --single-version-externally-managed install_data

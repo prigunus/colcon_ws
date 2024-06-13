@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/move_turtle/move_turtle.egg-info/PKG-INFO
+writing dependency_links to ../../build/move_turtle/move_turtle.egg-info/dependency_links.txt
+writing entry points to ../../build/move_turtle/move_turtle.egg-info/entry_points.txt
+writing requirements to ../../build/move_turtle/move_turtle.egg-info/requires.txt
+writing top-level names to ../../build/move_turtle/move_turtle.egg-info/top_level.txt
+reading manifest file '../../build/move_turtle/move_turtle.egg-info/SOURCES.txt'
+writing manifest file '../../build/move_turtle/move_turtle.egg-info/SOURCES.txt'
+running build
+running build_py
+copying move_turtle/random_move.py -> /home/kcm/colcon_ws/build/move_turtle/build/lib/move_turtle
+copying move_turtle/__init__.py -> /home/kcm/colcon_ws/build/move_turtle/build/lib/move_turtle
+running install
+running install_lib
+copying /home/kcm/colcon_ws/build/move_turtle/build/lib/move_turtle/random_move.py -> /home/kcm/colcon_ws/install/move_turtle/lib/python3.10/site-packages/move_turtle
+copying /home/kcm/colcon_ws/build/move_turtle/build/lib/move_turtle/__init__.py -> /home/kcm/colcon_ws/install/move_turtle/lib/python3.10/site-packages/move_turtle
+byte-compiling /home/kcm/colcon_ws/install/move_turtle/lib/python3.10/site-packages/move_turtle/random_move.py to random_move.cpython-310.pyc
+byte-compiling /home/kcm/colcon_ws/install/move_turtle/lib/python3.10/site-packages/move_turtle/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/move_turtle -> /home/kcm/colcon_ws/install/move_turtle/share/ament_index/resource_index/packages
+copying package.xml -> /home/kcm/colcon_ws/install/move_turtle/share/move_turtle
+running install_egg_info
+removing '/home/kcm/colcon_ws/install/move_turtle/lib/python3.10/site-packages/move_turtle-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/move_turtle/move_turtle.egg-info to /home/kcm/colcon_ws/install/move_turtle/lib/python3.10/site-packages/move_turtle-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/kcm/colcon_ws/build/move_turtle/install.log'

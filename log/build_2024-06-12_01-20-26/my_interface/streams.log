@@ -1,0 +1,20 @@
+[0.024s] Invoking command in '/home/kcm/colcon_ws/build/my_interface': CMAKE_PREFIX_PATH=/home/kcm/colcon_ws/install/my_pkg:/home/kcm/colcon_ws/install/move_turtle:/home/kcm/ros2_ws/install/py_srvcli:/home/kcm/ros2_ws/install/py_pubsub:/home/kcm/ros2_ws/install/py_ps:/home/kcm/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake /home/kcm/colcon_ws/src/my_interface -DCMAKE_INSTALL_PREFIX=/home/kcm/colcon_ws/install/my_interface
+[0.076s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.530s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.604s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.609s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.617s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.632s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.670s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.690s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.114s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[1.115s]   Packages installing interfaces must include
+[1.117s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[1.117s]   package.xml
+[1.119s] Call Stack (most recent call first):
+[1.119s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[1.124s] 
+[1.125s] [0m
+[1.125s] -- Configuring incomplete, errors occurred!
+[1.126s] See also "/home/kcm/colcon_ws/build/my_interface/CMakeFiles/CMakeOutput.log".
+[1.128s] Invoked command in '/home/kcm/colcon_ws/build/my_interface' returned '1': CMAKE_PREFIX_PATH=/home/kcm/colcon_ws/install/my_pkg:/home/kcm/colcon_ws/install/move_turtle:/home/kcm/ros2_ws/install/py_srvcli:/home/kcm/ros2_ws/install/py_pubsub:/home/kcm/ros2_ws/install/py_ps:/home/kcm/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake /home/kcm/colcon_ws/src/my_interface -DCMAKE_INSTALL_PREFIX=/home/kcm/colcon_ws/install/my_interface

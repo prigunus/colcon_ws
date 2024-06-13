@@ -1,0 +1,15 @@
+/home/kcm/colcon_ws/install/my_interface/share/ament_index/resource_index/package_run_dependencies/my_interface
+/home/kcm/colcon_ws/install/my_interface/share/ament_index/resource_index/parent_prefix_path/my_interface
+/home/kcm/colcon_ws/install/my_interface/share/my_interface/environment/ament_prefix_path.sh
+/home/kcm/colcon_ws/install/my_interface/share/my_interface/environment/ament_prefix_path.dsv
+/home/kcm/colcon_ws/install/my_interface/share/my_interface/environment/path.sh
+/home/kcm/colcon_ws/install/my_interface/share/my_interface/environment/path.dsv
+/home/kcm/colcon_ws/install/my_interface/share/my_interface/local_setup.bash
+/home/kcm/colcon_ws/install/my_interface/share/my_interface/local_setup.sh
+/home/kcm/colcon_ws/install/my_interface/share/my_interface/local_setup.zsh
+/home/kcm/colcon_ws/install/my_interface/share/my_interface/local_setup.dsv
+/home/kcm/colcon_ws/install/my_interface/share/my_interface/package.dsv
+/home/kcm/colcon_ws/install/my_interface/share/ament_index/resource_index/packages/my_interface
+/home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/my_interfaceConfig.cmake
+/home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/my_interfaceConfig-version.cmake
+/home/kcm/colcon_ws/install/my_interface/share/my_interface/package.xml

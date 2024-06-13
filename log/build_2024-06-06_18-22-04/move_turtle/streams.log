@@ -1,0 +1,39 @@
+[1.652s] Invoking command in '/home/kcm/colcon_ws/src/move_turtle': PYTHONPATH=/home/kcm/colcon_ws/build/move_turtle/prefix_override:/home/kcm/colcon_ws/install/move_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/move_turtle build --build-base /home/kcm/colcon_ws/build/move_turtle/build install --record /home/kcm/colcon_ws/build/move_turtle/install.log --single-version-externally-managed install_data
+[1.954s] running egg_info
+[1.956s] creating ../../build/move_turtle/move_turtle.egg-info
+[1.957s] writing ../../build/move_turtle/move_turtle.egg-info/PKG-INFO
+[1.958s] writing dependency_links to ../../build/move_turtle/move_turtle.egg-info/dependency_links.txt
+[1.959s] writing entry points to ../../build/move_turtle/move_turtle.egg-info/entry_points.txt
+[1.960s] writing requirements to ../../build/move_turtle/move_turtle.egg-info/requires.txt
+[1.960s] writing top-level names to ../../build/move_turtle/move_turtle.egg-info/top_level.txt
+[1.961s] writing manifest file '../../build/move_turtle/move_turtle.egg-info/SOURCES.txt'
+[1.963s] reading manifest file '../../build/move_turtle/move_turtle.egg-info/SOURCES.txt'
+[1.964s] writing manifest file '../../build/move_turtle/move_turtle.egg-info/SOURCES.txt'
+[1.965s] running build
+[1.966s] running build_py
+[1.966s] creating /home/kcm/colcon_ws/build/move_turtle/build
+[1.967s] creating /home/kcm/colcon_ws/build/move_turtle/build/lib
+[1.967s] creating /home/kcm/colcon_ws/build/move_turtle/build/lib/move_turtle
+[1.968s] copying move_turtle/__init__.py -> /home/kcm/colcon_ws/build/move_turtle/build/lib/move_turtle
+[1.968s] copying move_turtle/randommove.py -> /home/kcm/colcon_ws/build/move_turtle/build/lib/move_turtle
+[1.969s] running install
+[1.969s] running install_lib
+[1.970s] creating /home/kcm/colcon_ws/install/move_turtle/lib/python3.10/site-packages/move_turtle
+[1.971s] copying /home/kcm/colcon_ws/build/move_turtle/build/lib/move_turtle/__init__.py -> /home/kcm/colcon_ws/install/move_turtle/lib/python3.10/site-packages/move_turtle
+[1.971s] copying /home/kcm/colcon_ws/build/move_turtle/build/lib/move_turtle/randommove.py -> /home/kcm/colcon_ws/install/move_turtle/lib/python3.10/site-packages/move_turtle
+[1.973s] byte-compiling /home/kcm/colcon_ws/install/move_turtle/lib/python3.10/site-packages/move_turtle/__init__.py to __init__.cpython-310.pyc
+[1.974s] byte-compiling /home/kcm/colcon_ws/install/move_turtle/lib/python3.10/site-packages/move_turtle/randommove.py to randommove.cpython-310.pyc
+[1.975s] running install_data
+[1.975s] creating /home/kcm/colcon_ws/install/move_turtle/share
+[1.975s] creating /home/kcm/colcon_ws/install/move_turtle/share/ament_index
+[1.976s] creating /home/kcm/colcon_ws/install/move_turtle/share/ament_index/resource_index
+[1.976s] creating /home/kcm/colcon_ws/install/move_turtle/share/ament_index/resource_index/packages
+[1.977s] copying resource/move_turtle -> /home/kcm/colcon_ws/install/move_turtle/share/ament_index/resource_index/packages
+[1.977s] creating /home/kcm/colcon_ws/install/move_turtle/share/move_turtle
+[1.978s] copying package.xml -> /home/kcm/colcon_ws/install/move_turtle/share/move_turtle
+[1.978s] running install_egg_info
+[1.980s] Copying ../../build/move_turtle/move_turtle.egg-info to /home/kcm/colcon_ws/install/move_turtle/lib/python3.10/site-packages/move_turtle-0.0.0-py3.10.egg-info
+[1.984s] running install_scripts
+[2.012s] Installing mturtle script to /home/kcm/colcon_ws/install/move_turtle/lib/move_turtle
+[2.013s] writing list of installed files to '/home/kcm/colcon_ws/build/move_turtle/install.log'
+[2.039s] Invoked command in '/home/kcm/colcon_ws/src/move_turtle' returned '0': PYTHONPATH=/home/kcm/colcon_ws/build/move_turtle/prefix_override:/home/kcm/colcon_ws/install/move_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/move_turtle build --build-base /home/kcm/colcon_ws/build/move_turtle/build install --record /home/kcm/colcon_ws/build/move_turtle/install.log --single-version-externally-managed install_data
