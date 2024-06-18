@@ -1,0 +1,173 @@
+[0.021s] Invoking command in '/home/kcm/colcon_ws/build/my_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kcm/colcon_ws/install/my_pkg:/home/kcm/colcon_ws/install/move_turtle:/home/kcm/ros2_ws/install/py_srvcli:/home/kcm/ros2_ws/install/py_pubsub:/home/kcm/ros2_ws/install/py_ps:/home/kcm/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/kcm/colcon_ws/build/my_interface -- -j1 -l1
+[0.090s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.540s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.597s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.603s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.613s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.639s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.699s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.733s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.472s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.420s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.795s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.854s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.919s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.920s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.920s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.973s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.000s] -- Configuring done
+[3.104s] -- Generating done
+[3.125s] -- Build files have been written to: /home/kcm/colcon_ws/build/my_interface
+[3.272s] [  3%] Built target my_interface__cpp
+[3.302s] [35m[1mConsolidate compiler generated dependencies of target my_interface__rosidl_typesupport_cpp[0m
+[3.362s] [ 12%] Built target my_interface__rosidl_typesupport_cpp
+[3.407s] [35m[1mConsolidate compiler generated dependencies of target my_interface__rosidl_generator_c[0m
+[3.445s] [ 22%] Built target my_interface__rosidl_generator_c
+[3.481s] [35m[1mConsolidate compiler generated dependencies of target my_interface__rosidl_typesupport_fastrtps_c[0m
+[3.510s] [ 32%] Built target my_interface__rosidl_typesupport_fastrtps_c
+[3.581s] [35m[1mConsolidate compiler generated dependencies of target my_interface__rosidl_typesupport_fastrtps_cpp[0m
+[3.634s] [ 41%] Built target my_interface__rosidl_typesupport_fastrtps_cpp
+[3.660s] [35m[1mConsolidate compiler generated dependencies of target my_interface__rosidl_typesupport_introspection_c[0m
+[3.739s] [ 51%] Built target my_interface__rosidl_typesupport_introspection_c
+[3.785s] [35m[1mConsolidate compiler generated dependencies of target my_interface__rosidl_typesupport_c[0m
+[3.832s] [ 61%] Built target my_interface__rosidl_typesupport_c
+[3.884s] [35m[1mConsolidate compiler generated dependencies of target my_interface__rosidl_typesupport_introspection_cpp[0m
+[3.945s] [ 70%] Built target my_interface__rosidl_typesupport_introspection_cpp
+[4.020s] [ 70%] Built target my_interface
+[4.129s] [ 70%] Built target ament_cmake_python_copy_my_interface
+[4.877s] running egg_info
+[4.878s] writing my_interface.egg-info/PKG-INFO
+[4.879s] writing dependency_links to my_interface.egg-info/dependency_links.txt
+[4.880s] writing top-level names to my_interface.egg-info/top_level.txt
+[4.883s] reading manifest file 'my_interface.egg-info/SOURCES.txt'
+[4.883s] writing manifest file 'my_interface.egg-info/SOURCES.txt'
+[4.948s] [ 70%] Built target ament_cmake_python_build_my_interface_egg
+[5.042s] [ 74%] Built target my_interface__py
+[5.090s] [35m[1mConsolidate compiler generated dependencies of target my_interface__rosidl_generator_py[0m
+[5.150s] [ 80%] Built target my_interface__rosidl_generator_py
+[5.197s] [35m[1mConsolidate compiler generated dependencies of target my_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[5.258s] [ 87%] Built target my_interface__rosidl_typesupport_fastrtps_c__pyext
+[5.306s] [35m[1mConsolidate compiler generated dependencies of target my_interface__rosidl_typesupport_introspection_c__pyext[0m
+[5.358s] [ 93%] Built target my_interface__rosidl_typesupport_introspection_c__pyext
+[5.416s] [35m[1mConsolidate compiler generated dependencies of target my_interface__rosidl_typesupport_c__pyext[0m
+[5.471s] [100%] Built target my_interface__rosidl_typesupport_c__pyext
+[5.554s] Invoked command in '/home/kcm/colcon_ws/build/my_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kcm/colcon_ws/install/my_pkg:/home/kcm/colcon_ws/install/move_turtle:/home/kcm/ros2_ws/install/py_srvcli:/home/kcm/ros2_ws/install/py_pubsub:/home/kcm/ros2_ws/install/py_ps:/home/kcm/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/kcm/colcon_ws/build/my_interface -- -j1 -l1
+[5.981s] Invoking command in '/home/kcm/colcon_ws/build/my_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kcm/colcon_ws/install/my_pkg:/home/kcm/colcon_ws/install/move_turtle:/home/kcm/ros2_ws/install/py_srvcli:/home/kcm/ros2_ws/install/py_pubsub:/home/kcm/ros2_ws/install/py_ps:/home/kcm/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/kcm/colcon_ws/build/my_interface
+[6.011s] -- Install configuration: ""
+[6.011s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/ament_index/resource_index/rosidl_interfaces/my_interface
+[6.012s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface
+[6.012s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg
+[6.012s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/rosidl_generator_c__visibility_control.h
+[6.012s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail
+[6.012s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__functions.c
+[6.012s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__struct.h
+[6.013s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__functions.h
+[6.013s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__type_support.h
+[6.013s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/my_topic.h
+[6.013s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/environment/library_path.sh
+[6.013s] -- Installing: /home/kcm/colcon_ws/install/my_interface/share/my_interface/environment/library_path.dsv
+[6.014s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/lib/libmy_interface__rosidl_generator_c.so
+[6.015s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface
+[6.015s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg
+[6.015s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.017s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail
+[6.017s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__rosidl_typesupport_fastrtps_c.h
+[6.017s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_fastrtps_c.so
+[6.018s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface
+[6.018s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg
+[6.018s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/my_topic.hpp
+[6.018s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail
+[6.018s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__traits.hpp
+[6.018s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__struct.hpp
+[6.018s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__builder.hpp
+[6.018s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface
+[6.024s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg
+[6.024s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.024s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail
+[6.024s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__rosidl_typesupport_fastrtps_cpp.hpp
+[6.024s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/dds_fastrtps
+[6.025s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_fastrtps_cpp.so
+[6.025s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface
+[6.025s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg
+[6.025s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.025s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail
+[6.025s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__type_support.c
+[6.025s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__rosidl_typesupport_introspection_c.h
+[6.025s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_introspection_c.so
+[6.026s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_c.so
+[6.026s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface
+[6.026s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg
+[6.026s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail
+[6.026s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__rosidl_typesupport_introspection_cpp.hpp
+[6.026s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__type_support.cpp
+[6.027s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_introspection_cpp.so
+[6.028s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_cpp.so
+[6.028s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/environment/pythonpath.sh
+[6.028s] -- Installing: /home/kcm/colcon_ws/install/my_interface/share/my_interface/environment/pythonpath.dsv
+[6.028s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info
+[6.028s] -- Installing: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.029s] -- Installing: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info/top_level.txt
+[6.029s] -- Installing: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.029s] -- Installing: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[6.029s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface
+[6.029s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.029s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/_my_interface_s.ep.rosidl_typesupport_introspection_c.c
+[6.029s] -- Installing: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/__init__.py
+[6.031s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.031s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.031s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg
+[6.031s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg/_my_topic_s.c
+[6.032s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg/__init__.py
+[6.032s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg/_my_topic.py
+[6.032s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/_my_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.032s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/_my_interface_s.ep.rosidl_typesupport_c.c
+[6.032s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/libmy_interface__rosidl_generator_py.so
+[6.115s] Listing '/home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface'...
+[6.115s] Compiling '/home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/__init__.py'...
+[6.115s] Listing '/home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg'...
+[6.123s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.127s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.128s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.128s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/lib/libmy_interface__rosidl_generator_py.so
+[6.128s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/msg/MyTopic.idl
+[6.129s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/msg/MyTopic.msg
+[6.129s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/ament_index/resource_index/package_run_dependencies/my_interface
+[6.129s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/ament_index/resource_index/parent_prefix_path/my_interface
+[6.129s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/environment/ament_prefix_path.sh
+[6.129s] -- Installing: /home/kcm/colcon_ws/install/my_interface/share/my_interface/environment/ament_prefix_path.dsv
+[6.130s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/environment/path.sh
+[6.130s] -- Installing: /home/kcm/colcon_ws/install/my_interface/share/my_interface/environment/path.dsv
+[6.130s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/local_setup.bash
+[6.134s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/local_setup.sh
+[6.135s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/local_setup.zsh
+[6.135s] -- Installing: /home/kcm/colcon_ws/install/my_interface/share/my_interface/local_setup.dsv
+[6.136s] -- Installing: /home/kcm/colcon_ws/install/my_interface/share/my_interface/package.dsv
+[6.137s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/ament_index/resource_index/packages/my_interface
+[6.137s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_cExport.cmake
+[6.137s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_cExport-noconfig.cmake
+[6.144s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[6.144s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.144s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_cppExport.cmake
+[6.144s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.145s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.152s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_introspection_cExport.cmake
+[6.152s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.152s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_cExport.cmake
+[6.153s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_cExport-noconfig.cmake
+[6.153s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_introspection_cppExport.cmake
+[6.153s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.153s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_cppExport.cmake
+[6.153s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[6.153s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_pyExport.cmake
+[6.154s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_pyExport-noconfig.cmake
+[6.154s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/rosidl_cmake-extras.cmake
+[6.154s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.154s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.157s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[6.157s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/ament_cmake_export_targets-extras.cmake
+[6.157s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.158s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.158s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/my_interfaceConfig.cmake
+[6.158s] -- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/my_interfaceConfig-version.cmake
+[6.158s] -- Installing: /home/kcm/colcon_ws/install/my_interface/share/my_interface/package.xml
+[6.180s] Invoked command in '/home/kcm/colcon_ws/build/my_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kcm/colcon_ws/install/my_pkg:/home/kcm/colcon_ws/install/move_turtle:/home/kcm/ros2_ws/install/py_srvcli:/home/kcm/ros2_ws/install/py_pubsub:/home/kcm/ros2_ws/install/py_ps:/home/kcm/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/kcm/colcon_ws/build/my_interface

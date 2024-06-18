@@ -7,18 +7,28 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(builtin_interfaces REQUIRED) # add
-find_package(rosidl_default_generators REQUIRED) # add
+
+find_package(builtin_interfaces REQUIRED) 
+find_package(rosidl_default_generators REQUIRED)
 
 # add
+
 set(msg_files
   "msg/Mytopic.msg"
 )
 
+set(srv_files
+  "srv/Mysrv.srv"
+)
+
+
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
+  ${srv_files}
   DEPENDENCIES builtin_interfaces
 )
+
+ament_export_dependencies(rosidl_default_runtime)
 # end add
 
 # uncomment the following section in order to fill in

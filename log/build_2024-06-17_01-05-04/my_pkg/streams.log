@@ -1,0 +1,29 @@
+[1.939s] Invoking command in '/home/kcm/colcon_ws/src/my_pkg': PYTHONPATH=/home/kcm/colcon_ws/build/my_pkg/prefix_override:/home/kcm/colcon_ws/install/my_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_pkg build --build-base /home/kcm/colcon_ws/build/my_pkg/build install --record /home/kcm/colcon_ws/build/my_pkg/install.log --single-version-externally-managed install_data
+[2.775s] running egg_info
+[2.777s] writing ../../build/my_pkg/my_pkg.egg-info/PKG-INFO
+[2.794s] writing dependency_links to ../../build/my_pkg/my_pkg.egg-info/dependency_links.txt
+[2.796s] writing entry points to ../../build/my_pkg/my_pkg.egg-info/entry_points.txt
+[2.798s] writing requirements to ../../build/my_pkg/my_pkg.egg-info/requires.txt
+[2.799s] writing top-level names to ../../build/my_pkg/my_pkg.egg-info/top_level.txt
+[2.803s] reading manifest file '../../build/my_pkg/my_pkg.egg-info/SOURCES.txt'
+[2.817s] writing manifest file '../../build/my_pkg/my_pkg.egg-info/SOURCES.txt'
+[2.819s] running build
+[2.820s] running build_py
+[2.821s] copying my_pkg/simple_myinterface_sub.py -> /home/kcm/colcon_ws/build/my_pkg/build/lib/my_pkg
+[2.823s] copying my_pkg/simple_myinterface_pub.py -> /home/kcm/colcon_ws/build/my_pkg/build/lib/my_pkg
+[2.825s] running install
+[2.827s] running install_lib
+[2.829s] copying /home/kcm/colcon_ws/build/my_pkg/build/lib/my_pkg/simple_myinterface_sub.py -> /home/kcm/colcon_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg
+[2.831s] copying /home/kcm/colcon_ws/build/my_pkg/build/lib/my_pkg/simple_myinterface_pub.py -> /home/kcm/colcon_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg
+[2.834s] byte-compiling /home/kcm/colcon_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg/simple_myinterface_sub.py to simple_myinterface_sub.cpython-310.pyc
+[2.839s] byte-compiling /home/kcm/colcon_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg/simple_myinterface_pub.py to simple_myinterface_pub.cpython-310.pyc
+[2.847s] running install_data
+[2.848s] running install_egg_info
+[2.853s] removing '/home/kcm/colcon_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.862s] Copying ../../build/my_pkg/my_pkg.egg-info to /home/kcm/colcon_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg-0.0.0-py3.10.egg-info
+[2.890s] running install_scripts
+[2.934s] Installing mpub script to /home/kcm/colcon_ws/install/my_pkg/lib/my_pkg
+[2.939s] Installing myinterfacepub script to /home/kcm/colcon_ws/install/my_pkg/lib/my_pkg
+[2.942s] Installing myinterfacesub script to /home/kcm/colcon_ws/install/my_pkg/lib/my_pkg
+[2.944s] writing list of installed files to '/home/kcm/colcon_ws/build/my_pkg/install.log'
+[2.990s] Invoked command in '/home/kcm/colcon_ws/src/my_pkg' returned '0': PYTHONPATH=/home/kcm/colcon_ws/build/my_pkg/prefix_override:/home/kcm/colcon_ws/install/my_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_pkg build --build-base /home/kcm/colcon_ws/build/my_pkg/build install --record /home/kcm/colcon_ws/build/my_pkg/install.log --single-version-externally-managed install_data

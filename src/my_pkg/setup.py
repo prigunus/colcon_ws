@@ -22,7 +22,11 @@ setup(
         'console_scripts': [
             'mpub = my_pkg.simple_message_pub:main',
             'myinterfacepub = my_pkg.simple_myinterface_pub:main',
-            'myinterfaceusb = my_pkg.simple_myinterface_sub:main',
+            'myinterfacesub = my_pkg.simple_myinterface_sub:main',
+            'mysrvserver = my_pkg.simple_srv_server:main',
+            'mysrvclient = my_pkg.simple_srv_client:main'
+
+            
 
         ],
     },

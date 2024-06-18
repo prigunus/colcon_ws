@@ -1,0 +1,366 @@
+[0.000000] (-) TimerEvent: {}
+[0.001207] (move_turtle) JobQueued: {'identifier': 'move_turtle', 'dependencies': OrderedDict()}
+[0.001409] (my_interface) JobQueued: {'identifier': 'my_interface', 'dependencies': OrderedDict()}
+[0.002012] (my_pkg) JobQueued: {'identifier': 'my_pkg', 'dependencies': OrderedDict()}
+[0.003734] (move_turtle) JobStarted: {'identifier': 'move_turtle'}
+[0.103252] (-) TimerEvent: {}
+[0.220166] (-) TimerEvent: {}
+[0.323351] (-) TimerEvent: {}
+[0.427190] (-) TimerEvent: {}
+[0.541151] (-) TimerEvent: {}
+[0.643964] (-) TimerEvent: {}
+[0.747308] (-) TimerEvent: {}
+[0.851300] (-) TimerEvent: {}
+[0.964897] (-) TimerEvent: {}
+[1.067488] (-) TimerEvent: {}
+[1.171459] (-) TimerEvent: {}
+[1.277736] (-) TimerEvent: {}
+[1.381085] (-) TimerEvent: {}
+[1.483280] (-) TimerEvent: {}
+[1.595535] (-) TimerEvent: {}
+[1.696177] (-) TimerEvent: {}
+[1.797557] (-) TimerEvent: {}
+[1.898679] (-) TimerEvent: {}
+[2.000595] (-) TimerEvent: {}
+[2.101459] (-) TimerEvent: {}
+[2.204109] (-) TimerEvent: {}
+[2.308914] (-) TimerEvent: {}
+[2.409964] (-) TimerEvent: {}
+[2.515126] (-) TimerEvent: {}
+[2.568475] (move_turtle) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/move_turtle', 'build', '--build-base', '/home/kcm/colcon_ws/build/move_turtle/build', 'install', '--record', '/home/kcm/colcon_ws/build/move_turtle/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kcm/colcon_ws/src/move_turtle', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'kcm', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kcm/colcon_ws/install/my_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kcm', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1189', 'SYSTEMD_EXEC_PID': '1328', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2121', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kcm/colcon_ws/install:/home/kcm/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kcm', 'JOURNAL_STREAM': '8:24580', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kcm', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kcm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kcm-VirtualBox:@/tmp/.ICE-unix/1290,unix/kcm-VirtualBox:/tmp/.ICE-unix/1290', 'INVOCATION_ID': 'bbc6824b33b44a57a947b35239b34bf1', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Z8V4O2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kcm/colcon_ws/install/my_pkg:/home/kcm/colcon_ws/install/my_interface:/home/kcm/colcon_ws/install/move_turtle:/home/kcm/ros2_ws/install/py_srvcli:/home/kcm/ros2_ws/install/py_pubsub:/home/kcm/ros2_ws/install/py_ps:/home/kcm/ros2_ws/install/my_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:142c1eb2-3736-40ee-b810-1fb6efbf08ae', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kcm/colcon_ws/build/move_turtle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kcm/colcon_ws/build/move_turtle/prefix_override:/home/kcm/colcon_ws/install/move_turtle/lib/python3.10/site-packages:/home/kcm/colcon_ws/install/my_pkg/lib/python3.10/site-packages:/home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages:/home/kcm/colcon_ws/install/move_turtle/lib/python3.10/site-packages:/home/kcm/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/kcm/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/kcm/ros2_ws/install/py_ps/lib/python3.10/site-packages:/home/kcm/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kcm/colcon_ws/install/my_interface'}, 'shell': False}
+[2.620882] (-) TimerEvent: {}
+[2.723188] (-) TimerEvent: {}
+[2.825023] (-) TimerEvent: {}
+[2.928504] (-) TimerEvent: {}
+[3.032056] (-) TimerEvent: {}
+[3.109843] (move_turtle) StdoutLine: {'line': b'running egg_info\n'}
+[3.112533] (move_turtle) StdoutLine: {'line': b'writing ../../build/move_turtle/move_turtle.egg-info/PKG-INFO\n'}
+[3.115585] (move_turtle) StdoutLine: {'line': b'writing dependency_links to ../../build/move_turtle/move_turtle.egg-info/dependency_links.txt\n'}
+[3.117396] (move_turtle) StdoutLine: {'line': b'writing entry points to ../../build/move_turtle/move_turtle.egg-info/entry_points.txt\n'}
+[3.119698] (move_turtle) StdoutLine: {'line': b'writing requirements to ../../build/move_turtle/move_turtle.egg-info/requires.txt\n'}
+[3.121524] (move_turtle) StdoutLine: {'line': b'writing top-level names to ../../build/move_turtle/move_turtle.egg-info/top_level.txt\n'}
+[3.126611] (move_turtle) StdoutLine: {'line': b"reading manifest file '../../build/move_turtle/move_turtle.egg-info/SOURCES.txt'\n"}
+[3.128114] (move_turtle) StdoutLine: {'line': b"writing manifest file '../../build/move_turtle/move_turtle.egg-info/SOURCES.txt'\n"}
+[3.129879] (move_turtle) StdoutLine: {'line': b'running build\n'}
+[3.130464] (move_turtle) StdoutLine: {'line': b'running build_py\n'}
+[3.131695] (move_turtle) StdoutLine: {'line': b'running install\n'}
+[3.132286] (-) TimerEvent: {}
+[3.133369] (move_turtle) StdoutLine: {'line': b'running install_lib\n'}
+[3.135658] (move_turtle) StdoutLine: {'line': b'running install_data\n'}
+[3.136368] (move_turtle) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.138813] (move_turtle) StdoutLine: {'line': b"removing '/home/kcm/colcon_ws/install/move_turtle/lib/python3.10/site-packages/move_turtle-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.154676] (move_turtle) StdoutLine: {'line': b'Copying ../../build/move_turtle/move_turtle.egg-info to /home/kcm/colcon_ws/install/move_turtle/lib/python3.10/site-packages/move_turtle-0.0.0-py3.10.egg-info\n'}
+[3.155021] (move_turtle) StdoutLine: {'line': b'running install_scripts\n'}
+[3.210369] (move_turtle) StdoutLine: {'line': b'Installing mturtle script to /home/kcm/colcon_ws/install/move_turtle/lib/move_turtle\n'}
+[3.212399] (move_turtle) StdoutLine: {'line': b"writing list of installed files to '/home/kcm/colcon_ws/build/move_turtle/install.log'\n"}
+[3.240223] (-) TimerEvent: {}
+[3.245872] (move_turtle) CommandEnded: {'returncode': 0}
+[3.332296] (move_turtle) JobEnded: {'identifier': 'move_turtle', 'rc': 0}
+[3.360662] (-) TimerEvent: {}
+[3.361224] (my_interface) JobStarted: {'identifier': 'my_interface'}
+[3.404646] (my_interface) JobProgress: {'identifier': 'my_interface', 'progress': 'cmake'}
+[3.421919] (my_interface) JobProgress: {'identifier': 'my_interface', 'progress': 'build'}
+[3.422926] (my_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kcm/colcon_ws/build/my_interface', '--', '-j1', '-l1'], 'cwd': '/home/kcm/colcon_ws/build/my_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'kcm'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kcm/colcon_ws/install/my_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kcm'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1189'), ('SYSTEMD_EXEC_PID', '1328'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2121'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kcm/colcon_ws/install:/home/kcm/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kcm'), ('JOURNAL_STREAM', '8:24580'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kcm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kcm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kcm-VirtualBox:@/tmp/.ICE-unix/1290,unix/kcm-VirtualBox:/tmp/.ICE-unix/1290'), ('INVOCATION_ID', 'bbc6824b33b44a57a947b35239b34bf1'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z8V4O2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kcm/colcon_ws/install/my_pkg:/home/kcm/colcon_ws/install/my_interface:/home/kcm/colcon_ws/install/move_turtle:/home/kcm/ros2_ws/install/py_srvcli:/home/kcm/ros2_ws/install/py_pubsub:/home/kcm/ros2_ws/install/py_ps:/home/kcm/ros2_ws/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:142c1eb2-3736-40ee-b810-1fb6efbf08ae'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kcm/colcon_ws/build/my_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kcm/colcon_ws/install/my_pkg/lib/python3.10/site-packages:/home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages:/home/kcm/colcon_ws/install/move_turtle/lib/python3.10/site-packages:/home/kcm/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/kcm/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/kcm/ros2_ws/install/py_ps/lib/python3.10/site-packages:/home/kcm/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kcm/colcon_ws/install/my_interface:/home/kcm/colcon_ws/install/my_pkg:/home/kcm/colcon_ws/install/move_turtle:/home/kcm/ros2_ws/install/py_srvcli:/home/kcm/ros2_ws/install/py_pubsub:/home/kcm/ros2_ws/install/py_ps:/home/kcm/ros2_ws/install/my_package:/opt/ros/humble')]), 'shell': False}
+[3.460956] (-) TimerEvent: {}
+[3.563114] (-) TimerEvent: {}
+[3.664193] (-) TimerEvent: {}
+[3.713117] (my_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.771562] (-) TimerEvent: {}
+[3.875907] (-) TimerEvent: {}
+[3.979996] (-) TimerEvent: {}
+[4.084752] (-) TimerEvent: {}
+[4.188628] (-) TimerEvent: {}
+[4.285688] (my_interface) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[4.289798] (-) TimerEvent: {}
+[4.390827] (-) TimerEvent: {}
+[4.405840] (my_interface) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.415993] (my_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.472557] (my_interface) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.492049] (-) TimerEvent: {}
+[4.513043] (my_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.585483] (my_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.592499] (-) TimerEvent: {}
+[4.644268] (my_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[4.699358] (-) TimerEvent: {}
+[4.803415] (-) TimerEvent: {}
+[4.907997] (-) TimerEvent: {}
+[5.012110] (-) TimerEvent: {}
+[5.112758] (-) TimerEvent: {}
+[5.231488] (-) TimerEvent: {}
+[5.264928] (my_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.335252] (-) TimerEvent: {}
+[5.439903] (-) TimerEvent: {}
+[5.540673] (-) TimerEvent: {}
+[5.644803] (-) TimerEvent: {}
+[5.745462] (-) TimerEvent: {}
+[5.852593] (-) TimerEvent: {}
+[5.955652] (-) TimerEvent: {}
+[6.060845] (-) TimerEvent: {}
+[6.093090] (my_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.168578] (-) TimerEvent: {}
+[6.273166] (-) TimerEvent: {}
+[6.377247] (-) TimerEvent: {}
+[6.378477] (my_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.465013] (my_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.479227] (-) TimerEvent: {}
+[6.558801] (my_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.559513] (my_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.559947] (my_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[6.579494] (-) TimerEvent: {}
+[6.597003] (my_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.677716] (my_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.680186] (-) TimerEvent: {}
+[6.780942] (-) TimerEvent: {}
+[6.883454] (-) TimerEvent: {}
+[6.995299] (-) TimerEvent: {}
+[6.995996] (my_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[7.041604] (my_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/kcm/colcon_ws/build/my_interface\n'}
+[7.095598] (-) TimerEvent: {}
+[7.200808] (-) TimerEvent: {}
+[7.205614] (my_interface) StdoutLine: {'line': b'[  3%] Built target my_interface__cpp\n'}
+[7.226518] (my_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interface__rosidl_typesupport_cpp\x1b[0m\n'}
+[7.304961] (-) TimerEvent: {}
+[7.308704] (my_interface) StdoutLine: {'line': b'[ 12%] Built target my_interface__rosidl_typesupport_cpp\n'}
+[7.336813] (my_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interface__rosidl_generator_c\x1b[0m\n'}
+[7.396801] (my_interface) StdoutLine: {'line': b'[ 22%] Built target my_interface__rosidl_generator_c\n'}
+[7.405333] (-) TimerEvent: {}
+[7.418784] (my_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interface__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[7.489948] (my_interface) StdoutLine: {'line': b'[ 32%] Built target my_interface__rosidl_typesupport_fastrtps_c\n'}
+[7.508058] (-) TimerEvent: {}
+[7.511972] (my_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interface__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[7.551064] (my_interface) StdoutLine: {'line': b'[ 41%] Built target my_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[7.590701] (my_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interface__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[7.612618] (-) TimerEvent: {}
+[7.627728] (my_interface) StdoutLine: {'line': b'[ 51%] Built target my_interface__rosidl_typesupport_introspection_c\n'}
+[7.659757] (my_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interface__rosidl_typesupport_c\x1b[0m\n'}
+[7.712792] (-) TimerEvent: {}
+[7.715792] (my_interface) StdoutLine: {'line': b'[ 61%] Built target my_interface__rosidl_typesupport_c\n'}
+[7.760990] (my_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interface__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[7.793703] (my_interface) StdoutLine: {'line': b'[ 70%] Built target my_interface__rosidl_typesupport_introspection_cpp\n'}
+[7.815918] (-) TimerEvent: {}
+[7.883000] (my_interface) StdoutLine: {'line': b'[ 70%] Built target my_interface\n'}
+[7.919779] (-) TimerEvent: {}
+[8.003390] (my_interface) StdoutLine: {'line': b'[ 70%] Built target ament_cmake_python_copy_my_interface\n'}
+[8.025323] (-) TimerEvent: {}
+[8.129259] (-) TimerEvent: {}
+[8.233572] (-) TimerEvent: {}
+[8.339177] (-) TimerEvent: {}
+[8.443228] (-) TimerEvent: {}
+[8.547138] (-) TimerEvent: {}
+[8.569470] (my_interface) StdoutLine: {'line': b'running egg_info\n'}
+[8.571354] (my_interface) StdoutLine: {'line': b'writing my_interface.egg-info/PKG-INFO\n'}
+[8.590021] (my_interface) StdoutLine: {'line': b'writing dependency_links to my_interface.egg-info/dependency_links.txt\n'}
+[8.593420] (my_interface) StdoutLine: {'line': b'writing top-level names to my_interface.egg-info/top_level.txt\n'}
+[8.599843] (my_interface) StdoutLine: {'line': b"reading manifest file 'my_interface.egg-info/SOURCES.txt'\n"}
+[8.610951] (my_interface) StdoutLine: {'line': b"writing manifest file 'my_interface.egg-info/SOURCES.txt'\n"}
+[8.650218] (-) TimerEvent: {}
+[8.657082] (my_interface) StdoutLine: {'line': b'[ 70%] Built target ament_cmake_python_build_my_interface_egg\n'}
+[8.726109] (my_interface) StdoutLine: {'line': b'[ 74%] Built target my_interface__py\n'}
+[8.750381] (-) TimerEvent: {}
+[8.751262] (my_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interface__rosidl_generator_py\x1b[0m\n'}
+[8.822537] (my_interface) StdoutLine: {'line': b'[ 80%] Built target my_interface__rosidl_generator_py\n'}
+[8.843552] (my_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interface__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[8.851754] (-) TimerEvent: {}
+[8.871052] (my_interface) StdoutLine: {'line': b'[ 87%] Built target my_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.936141] (my_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interface__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[8.952151] (-) TimerEvent: {}
+[8.969456] (my_interface) StdoutLine: {'line': b'[ 93%] Built target my_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[9.003856] (my_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interface__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[9.044450] (my_interface) StdoutLine: {'line': b'[100%] Built target my_interface__rosidl_typesupport_c__pyext\n'}
+[9.056293] (-) TimerEvent: {}
+[9.071995] (my_interface) CommandEnded: {'returncode': 0}
+[9.157271] (-) TimerEvent: {}
+[9.258468] (-) TimerEvent: {}
+[9.324460] (my_interface) JobProgress: {'identifier': 'my_interface', 'progress': 'install'}
+[9.341012] (my_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kcm/colcon_ws/build/my_interface'], 'cwd': '/home/kcm/colcon_ws/build/my_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'kcm'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kcm/colcon_ws/install/my_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kcm'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1189'), ('SYSTEMD_EXEC_PID', '1328'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2121'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kcm/colcon_ws/install:/home/kcm/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kcm'), ('JOURNAL_STREAM', '8:24580'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kcm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/kcm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kcm-VirtualBox:@/tmp/.ICE-unix/1290,unix/kcm-VirtualBox:/tmp/.ICE-unix/1290'), ('INVOCATION_ID', 'bbc6824b33b44a57a947b35239b34bf1'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z8V4O2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kcm/colcon_ws/install/my_pkg:/home/kcm/colcon_ws/install/my_interface:/home/kcm/colcon_ws/install/move_turtle:/home/kcm/ros2_ws/install/py_srvcli:/home/kcm/ros2_ws/install/py_pubsub:/home/kcm/ros2_ws/install/py_ps:/home/kcm/ros2_ws/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:142c1eb2-3736-40ee-b810-1fb6efbf08ae'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kcm/colcon_ws/build/my_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kcm/colcon_ws/install/my_pkg/lib/python3.10/site-packages:/home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages:/home/kcm/colcon_ws/install/move_turtle/lib/python3.10/site-packages:/home/kcm/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/kcm/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/kcm/ros2_ws/install/py_ps/lib/python3.10/site-packages:/home/kcm/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kcm/colcon_ws/install/my_interface:/home/kcm/colcon_ws/install/my_pkg:/home/kcm/colcon_ws/install/move_turtle:/home/kcm/ros2_ws/install/py_srvcli:/home/kcm/ros2_ws/install/py_pubsub:/home/kcm/ros2_ws/install/py_ps:/home/kcm/ros2_ws/install/my_package:/opt/ros/humble')]), 'shell': False}
+[9.357063] (my_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.359691] (-) TimerEvent: {}
+[9.360282] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/ament_index/resource_index/rosidl_interfaces/my_interface\n'}
+[9.361076] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface\n'}
+[9.361857] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg\n'}
+[9.362559] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/mytopic.h\n'}
+[9.363130] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.363733] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail\n'}
+[9.364376] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/mytopic__type_support.h\n'}
+[9.364934] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__functions.c\n'}
+[9.365505] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__struct.h\n'}
+[9.366054] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/mytopic__struct.h\n'}
+[9.366703] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__functions.h\n'}
+[9.367207] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/mytopic__functions.c\n'}
+[9.367745] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/mytopic__functions.h\n'}
+[9.368251] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__type_support.h\n'}
+[9.368739] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/my_topic.h\n'}
+[9.372371] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/environment/library_path.sh\n'}
+[9.373483] (my_interface) StdoutLine: {'line': b'-- Installing: /home/kcm/colcon_ws/install/my_interface/share/my_interface/environment/library_path.dsv\n'}
+[9.374389] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/lib/libmy_interface__rosidl_generator_c.so\n'}
+[9.375326] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface\n'}
+[9.375964] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg\n'}
+[9.376613] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.377206] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail\n'}
+[9.377800] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/mytopic__rosidl_typesupport_fastrtps_c.h\n'}
+[9.378711] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__rosidl_typesupport_fastrtps_c.h\n'}
+[9.379080] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[9.380388] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface\n'}
+[9.380964] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg\n'}
+[9.381525] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/my_topic.hpp\n'}
+[9.381995] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/mytopic.hpp\n'}
+[9.382499] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail\n'}
+[9.383121] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__traits.hpp\n'}
+[9.383666] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/mytopic__struct.hpp\n'}
+[9.383803] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/mytopic__builder.hpp\n'}
+[9.384634] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/mytopic__traits.hpp\n'}
+[9.384777] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__struct.hpp\n'}
+[9.384896] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__builder.hpp\n'}
+[9.385068] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface\n'}
+[9.386629] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg\n'}
+[9.386897] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.387190] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail\n'}
+[9.387278] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.387333] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/dds_fastrtps\n'}
+[9.403174] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/mytopic__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.405594] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.406114] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface\n'}
+[9.406434] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg\n'}
+[9.409880] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.410048] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail\n'}
+[9.410203] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__type_support.c\n'}
+[9.410341] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/mytopic__type_support.c\n'}
+[9.411397] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__rosidl_typesupport_introspection_c.h\n'}
+[9.411584] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/mytopic__rosidl_typesupport_introspection_c.h\n'}
+[9.411999] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_introspection_c.so\n'}
+[9.412502] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_c.so\n'}
+[9.412911] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface\n'}
+[9.417648] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg\n'}
+[9.417825] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail\n'}
+[9.418042] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.418222] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/mytopic__type_support.cpp\n'}
+[9.418407] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/my_topic__type_support.cpp\n'}
+[9.418569] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/include/my_interface/my_interface/msg/detail/mytopic__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.421086] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[9.423780] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_cpp.so\n'}
+[9.424139] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/environment/pythonpath.sh\n'}
+[9.424336] (my_interface) StdoutLine: {'line': b'-- Installing: /home/kcm/colcon_ws/install/my_interface/share/my_interface/environment/pythonpath.dsv\n'}
+[9.424651] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info\n'}
+[9.424837] (my_interface) StdoutLine: {'line': b'-- Installing: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.425065] (my_interface) StdoutLine: {'line': b'-- Installing: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.425271] (my_interface) StdoutLine: {'line': b'-- Installing: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.431760] (my_interface) StdoutLine: {'line': b'-- Installing: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.435437] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface\n'}
+[9.435966] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.436396] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/_my_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.436729] (my_interface) StdoutLine: {'line': b'-- Installing: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/__init__.py\n'}
+[9.437204] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.437540] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.437728] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg\n'}
+[9.441353] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg/_mytopic_s.c\n'}
+[9.449346] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg/_my_topic_s.c\n'}
+[9.449629] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg/_mytopic.py\n'}
+[9.449933] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg/__init__.py\n'}
+[9.450181] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg/_my_topic.py\n'}
+[9.450330] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/_my_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.450455] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/_my_interface_s.ep.rosidl_typesupport_c.c\n'}
+[9.450611] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/libmy_interface__rosidl_generator_py.so\n'}
+[9.478282] (-) TimerEvent: {}
+[9.559592] (my_interface) StdoutLine: {'line': b"Listing '/home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface'...\n"}
+[9.559970] (my_interface) StdoutLine: {'line': b"Compiling '/home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/__init__.py'...\n"}
+[9.560098] (my_interface) StdoutLine: {'line': b"Listing '/home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/msg'...\n"}
+[9.579486] (-) TimerEvent: {}
+[9.582110] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.586728] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.588918] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.590754] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/lib/libmy_interface__rosidl_generator_py.so\n'}
+[9.592066] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/msg/Mytopic.idl\n'}
+[9.592961] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/msg/Mytopic.msg\n'}
+[9.593790] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/ament_index/resource_index/package_run_dependencies/my_interface\n'}
+[9.594704] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/ament_index/resource_index/parent_prefix_path/my_interface\n'}
+[9.595625] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/environment/ament_prefix_path.sh\n'}
+[9.596780] (my_interface) StdoutLine: {'line': b'-- Installing: /home/kcm/colcon_ws/install/my_interface/share/my_interface/environment/ament_prefix_path.dsv\n'}
+[9.599372] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/environment/path.sh\n'}
+[9.599796] (my_interface) StdoutLine: {'line': b'-- Installing: /home/kcm/colcon_ws/install/my_interface/share/my_interface/environment/path.dsv\n'}
+[9.600397] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/local_setup.bash\n'}
+[9.600703] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/local_setup.sh\n'}
+[9.603802] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/local_setup.zsh\n'}
+[9.604074] (my_interface) StdoutLine: {'line': b'-- Installing: /home/kcm/colcon_ws/install/my_interface/share/my_interface/local_setup.dsv\n'}
+[9.604530] (my_interface) StdoutLine: {'line': b'-- Installing: /home/kcm/colcon_ws/install/my_interface/share/my_interface/package.dsv\n'}
+[9.604955] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/ament_index/resource_index/packages/my_interface\n'}
+[9.609245] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_cExport.cmake\n'}
+[9.609487] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.611041] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.611269] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.612286] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_cppExport.cmake\n'}
+[9.613189] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.613387] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.615773] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.616093] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.629784] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_cExport.cmake\n'}
+[9.630312] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.633082] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.633342] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.635202] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_cppExport.cmake\n'}
+[9.635426] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.636564] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_pyExport.cmake\n'}
+[9.636784] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.637008] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[9.637240] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.637422] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.637574] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.637723] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.637896] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.638063] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.638215] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/my_interfaceConfig.cmake\n'}
+[9.638355] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/cmake/my_interfaceConfig-version.cmake\n'}
+[9.639733] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/kcm/colcon_ws/install/my_interface/share/my_interface/package.xml\n'}
+[9.657078] (my_interface) CommandEnded: {'returncode': 0}
+[9.680228] (-) TimerEvent: {}
+[9.780990] (-) TimerEvent: {}
+[9.881851] (-) TimerEvent: {}
+[9.983136] (-) TimerEvent: {}
+[9.997471] (my_interface) JobEnded: {'identifier': 'my_interface', 'rc': 0}
+[9.999924] (my_pkg) JobStarted: {'identifier': 'my_pkg'}
+[10.099115] (-) TimerEvent: {}
+[10.203243] (-) TimerEvent: {}
+[10.307090] (-) TimerEvent: {}
+[10.415190] (-) TimerEvent: {}
+[10.516013] (-) TimerEvent: {}
+[10.619093] (-) TimerEvent: {}
+[10.724418] (-) TimerEvent: {}
+[10.827629] (-) TimerEvent: {}
+[10.932316] (-) TimerEvent: {}
+[11.036248] (-) TimerEvent: {}
+[11.140608] (-) TimerEvent: {}
+[11.245180] (-) TimerEvent: {}
+[11.350383] (-) TimerEvent: {}
+[11.452150] (-) TimerEvent: {}
+[11.559285] (-) TimerEvent: {}
+[11.595008] (my_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_pkg', 'build', '--build-base', '/home/kcm/colcon_ws/build/my_pkg/build', 'install', '--record', '/home/kcm/colcon_ws/build/my_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kcm/colcon_ws/src/my_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'kcm', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kcm/colcon_ws/install/my_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kcm', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1189', 'SYSTEMD_EXEC_PID': '1328', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2121', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kcm/colcon_ws/install:/home/kcm/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kcm', 'JOURNAL_STREAM': '8:24580', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kcm', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kcm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kcm-VirtualBox:@/tmp/.ICE-unix/1290,unix/kcm-VirtualBox:/tmp/.ICE-unix/1290', 'INVOCATION_ID': 'bbc6824b33b44a57a947b35239b34bf1', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Z8V4O2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kcm/colcon_ws/install/my_pkg:/home/kcm/colcon_ws/install/my_interface:/home/kcm/colcon_ws/install/move_turtle:/home/kcm/ros2_ws/install/py_srvcli:/home/kcm/ros2_ws/install/py_pubsub:/home/kcm/ros2_ws/install/py_ps:/home/kcm/ros2_ws/install/my_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:142c1eb2-3736-40ee-b810-1fb6efbf08ae', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kcm/colcon_ws/build/my_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kcm/colcon_ws/build/my_pkg/prefix_override:/home/kcm/colcon_ws/install/my_pkg/lib/python3.10/site-packages:/home/kcm/colcon_ws/install/my_pkg/lib/python3.10/site-packages:/home/kcm/colcon_ws/install/my_interface/local/lib/python3.10/dist-packages:/home/kcm/colcon_ws/install/move_turtle/lib/python3.10/site-packages:/home/kcm/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/kcm/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/kcm/ros2_ws/install/py_ps/lib/python3.10/site-packages:/home/kcm/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/kcm/colcon_ws/install/my_interface'}, 'shell': False}
+[11.663160] (-) TimerEvent: {}
+[11.767194] (-) TimerEvent: {}
+[11.871120] (-) TimerEvent: {}
+[11.975111] (-) TimerEvent: {}
+[12.079274] (-) TimerEvent: {}
+[12.122833] (my_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[12.124649] (my_pkg) StdoutLine: {'line': b'writing ../../build/my_pkg/my_pkg.egg-info/PKG-INFO\n'}
+[12.131251] (my_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_pkg/my_pkg.egg-info/dependency_links.txt\n'}
+[12.132793] (my_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_pkg/my_pkg.egg-info/entry_points.txt\n'}
+[12.139339] (my_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_pkg/my_pkg.egg-info/requires.txt\n'}
+[12.145879] (my_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_pkg/my_pkg.egg-info/top_level.txt\n'}
+[12.149601] (my_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_pkg/my_pkg.egg-info/SOURCES.txt'\n"}
+[12.153588] (my_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_pkg/my_pkg.egg-info/SOURCES.txt'\n"}
+[12.156534] (my_pkg) StdoutLine: {'line': b'running build\n'}
+[12.157337] (my_pkg) StdoutLine: {'line': b'running build_py\n'}
+[12.158772] (my_pkg) StdoutLine: {'line': b'running install\n'}
+[12.159686] (my_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[12.163344] (my_pkg) StdoutLine: {'line': b'running install_data\n'}
+[12.164398] (my_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.168100] (my_pkg) StdoutLine: {'line': b"removing '/home/kcm/colcon_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[12.173682] (my_pkg) StdoutLine: {'line': b'Copying ../../build/my_pkg/my_pkg.egg-info to /home/kcm/colcon_ws/install/my_pkg/lib/python3.10/site-packages/my_pkg-0.0.0-py3.10.egg-info\n'}
+[12.181305] (-) TimerEvent: {}
+[12.182239] (my_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[12.212435] (my_pkg) StdoutLine: {'line': b'Installing mpub script to /home/kcm/colcon_ws/install/my_pkg/lib/my_pkg\n'}
+[12.225941] (my_pkg) StdoutLine: {'line': b'Installing myinterfacepub script to /home/kcm/colcon_ws/install/my_pkg/lib/my_pkg\n'}
+[12.227911] (my_pkg) StdoutLine: {'line': b'Installing myinterfacesub script to /home/kcm/colcon_ws/install/my_pkg/lib/my_pkg\n'}
+[12.229583] (my_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/kcm/colcon_ws/build/my_pkg/install.log'\n"}
+[12.272296] (my_pkg) CommandEnded: {'returncode': 0}
+[12.283505] (-) TimerEvent: {}
+[12.289987] (my_pkg) JobEnded: {'identifier': 'my_pkg', 'rc': 0}
+[12.292599] (-) EventReactorShutdown: {}

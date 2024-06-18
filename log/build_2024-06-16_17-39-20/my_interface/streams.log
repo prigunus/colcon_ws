@@ -1,0 +1,21 @@
+[0.049s] Invoking command in '/home/kcm/colcon_ws/build/my_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kcm/colcon_ws/install/my_pkg:/home/kcm/colcon_ws/install/move_turtle:/home/kcm/ros2_ws/install/py_srvcli:/home/kcm/ros2_ws/install/py_pubsub:/home/kcm/ros2_ws/install/py_ps:/home/kcm/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/kcm/colcon_ws/build/my_interface -- -j1 -l1
+[0.349s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.853s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.960s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.968s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.009s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.038s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.093s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.151s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.526s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[1.527s]   Packages installing interfaces must include
+[1.527s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[1.527s]   package.xml
+[1.527s] Call Stack (most recent call first):
+[1.527s]   CMakeLists.txt:18 (rosidl_generate_interfaces)
+[1.527s] 
+[1.531s] [0m
+[1.531s] -- Configuring incomplete, errors occurred!
+[1.531s] See also "/home/kcm/colcon_ws/build/my_interface/CMakeFiles/CMakeOutput.log".
+[1.553s] gmake: *** [Makefile:226: cmake_check_build_system] 오류 1
+[1.557s] Invoked command in '/home/kcm/colcon_ws/build/my_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kcm/colcon_ws/install/my_pkg:/home/kcm/colcon_ws/install/move_turtle:/home/kcm/ros2_ws/install/py_srvcli:/home/kcm/ros2_ws/install/py_pubsub:/home/kcm/ros2_ws/install/py_ps:/home/kcm/ros2_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/kcm/colcon_ws/build/my_interface -- -j1 -l1

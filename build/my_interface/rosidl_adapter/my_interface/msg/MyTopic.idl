@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from my_interface/msg/MyTopic.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module my_interface {
+  module msg {
+    struct MyTopic {
+      builtin_interfaces::msg::Time stamp;
+
+      float my_float;
+    };
+  };
+};

@@ -1,1 +1,2 @@
 /home/kcm/colcon_ws/build/my_interface/rosidl_adapter/my_interface:msg/Mytopic.idl
+/home/kcm/colcon_ws/build/my_interface/rosidl_adapter/my_interface:srv/Mysrv.idl

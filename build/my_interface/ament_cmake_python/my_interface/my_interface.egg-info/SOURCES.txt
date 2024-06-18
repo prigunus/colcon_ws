@@ -1,0 +1,11 @@
+setup.py
+my_interface/__init__.py
+my_interface.egg-info/PKG-INFO
+my_interface.egg-info/SOURCES.txt
+my_interface.egg-info/dependency_links.txt
+my_interface.egg-info/top_level.txt
+my_interface/msg/__init__.py
+my_interface/msg/_my_topic.py
+my_interface/msg/_mytopic.py
+my_interface/srv/__init__.py
+my_interface/srv/_mysrv.py

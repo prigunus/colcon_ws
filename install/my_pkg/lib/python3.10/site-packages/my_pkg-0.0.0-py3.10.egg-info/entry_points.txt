@@ -1,3 +1,7 @@
 [console_scripts]
 mpub = my_pkg.simple_message_pub:main
+myinterfacepub = my_pkg.simple_myinterface_pub:main
+myinterfacesub = my_pkg.simple_myinterface_sub:main
+mysrvclient = my_pkg.simple_srv_client:main
+mysrvserver = my_pkg.simple_srv_server:main
 

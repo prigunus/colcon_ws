@@ -4,12 +4,37 @@ from rclpy.qos import QoSProfile
 from rclpy.qos import QoSHistoryPolicy, QoSReliabilityPolicy, QoSDurabilityPolicy
 
 from std_msgs.msg import String
+from rclpy.clock import ClockType, Clock
 from geometry_msgs.msg import Twist
+from std_msgs.msg import Header
 
+class T_pub(Node):
+    def __init__(self):
+        super().__init__('simple_tpub')
+        self.qos_profile = QoSProfile(history=QoSHistoryPolicy.KEEP_ALL,
+                                       reliability=QoSReliabilityPolicy.RELIABLE,
+                                       durability=QoSDurabilityPolicy.TRANSIENT_LOCAL)
+        self.pub = self.create_publisher(Header,'time',self.qos_profile)
+        self.clock = Clock(clock_type=ClockType.ROS_TIME)
+        print(self.clock.clock_type)
+
+    def time_pub(self):
+        msg=Header()
+        msg.stamp = self.clock.now().to_msg()
+        msg.frame_id = 'this is time'
+        self.pub.publish(msg)
 
 
 def main(args = None):
-    print("ros2 now start!!!")
+    rclpy.init(args=args)
+    node = T_pub()
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        node.get_logger().info('keyboard interrupt!!')
+    finally:
+        node.destroy_node()
+        rclpy.shutdown()
 
 if __name__ == '__main__':
     main()

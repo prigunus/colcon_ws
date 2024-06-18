@@ -1,0 +1,2 @@
+Invoking command in '/home/kcm/colcon_ws/build/my_interface': /usr/bin/cmake --build /home/kcm/colcon_ws/build/my_interface -- -j1 -l1
+Invoked command in '/home/kcm/colcon_ws/build/my_interface' returned '2': /usr/bin/cmake --build /home/kcm/colcon_ws/build/my_interface -- -j1 -l1

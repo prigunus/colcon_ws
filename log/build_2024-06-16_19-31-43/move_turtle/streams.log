@@ -1,0 +1,21 @@
+[2.608s] Invoking command in '/home/kcm/colcon_ws/src/move_turtle': PYTHONPATH=/home/kcm/colcon_ws/build/move_turtle/prefix_override:/home/kcm/colcon_ws/install/move_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/move_turtle build --build-base /home/kcm/colcon_ws/build/move_turtle/build install --record /home/kcm/colcon_ws/build/move_turtle/install.log --single-version-externally-managed install_data
+[3.127s] running egg_info
+[3.129s] writing ../../build/move_turtle/move_turtle.egg-info/PKG-INFO
+[3.131s] writing dependency_links to ../../build/move_turtle/move_turtle.egg-info/dependency_links.txt
+[3.133s] writing entry points to ../../build/move_turtle/move_turtle.egg-info/entry_points.txt
+[3.136s] writing requirements to ../../build/move_turtle/move_turtle.egg-info/requires.txt
+[3.137s] writing top-level names to ../../build/move_turtle/move_turtle.egg-info/top_level.txt
+[3.141s] reading manifest file '../../build/move_turtle/move_turtle.egg-info/SOURCES.txt'
+[3.142s] writing manifest file '../../build/move_turtle/move_turtle.egg-info/SOURCES.txt'
+[3.157s] running build
+[3.158s] running build_py
+[3.159s] running install
+[3.160s] running install_lib
+[3.162s] running install_data
+[3.162s] running install_egg_info
+[3.165s] removing '/home/kcm/colcon_ws/install/move_turtle/lib/python3.10/site-packages/move_turtle-0.0.0-py3.10.egg-info' (and everything under it)
+[3.168s] Copying ../../build/move_turtle/move_turtle.egg-info to /home/kcm/colcon_ws/install/move_turtle/lib/python3.10/site-packages/move_turtle-0.0.0-py3.10.egg-info
+[3.172s] running install_scripts
+[3.208s] Installing mturtle script to /home/kcm/colcon_ws/install/move_turtle/lib/move_turtle
+[3.214s] writing list of installed files to '/home/kcm/colcon_ws/build/move_turtle/install.log'
+[3.259s] Invoked command in '/home/kcm/colcon_ws/src/move_turtle' returned '0': PYTHONPATH=/home/kcm/colcon_ws/build/move_turtle/prefix_override:/home/kcm/colcon_ws/install/move_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/move_turtle build --build-base /home/kcm/colcon_ws/build/move_turtle/build install --record /home/kcm/colcon_ws/build/move_turtle/install.log --single-version-externally-managed install_data

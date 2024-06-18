@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_interface/srv/Mysrv.srv
+// generated code does not contain a copyright notice
+
+
+module my_interface {
+  module srv {
+    struct Mysrv_Request {
+      int64 first;
+
+      int64 second;
+    };
+    struct Mysrv_Response {
+      int64 sum;
+
+      int64 multiply;
+
+      float division;
+    };
+  };
+};
